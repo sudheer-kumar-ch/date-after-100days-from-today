@@ -10,7 +10,7 @@ app.get("/", (request, response) => {
   );
 
   response.send(
-    `${result.getDay()}-${result.getMonth() + 1}-${result.getFullYear()}`
+    `${result.getDay()}/${result.getMonth() + 1}/${result.getFullYear()}`
   );
 });
 
